@@ -1,0 +1,5 @@
+.ground-img{
+    background-image: url('../../images/ground-img.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+}

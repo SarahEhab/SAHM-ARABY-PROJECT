@@ -1,0 +1,32 @@
+.background-image{
+    background-image: url('../../images/Image.png');
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+
+    background-color: rgb(237, 234, 234);
+    
+}
+
+.form-floating>label {
+display: flex !important;
+left: revert-layer;
+}
+.profileButton2{ 
+    background-image: url('../../images/ground-button.png');
+    background-repeat: no-repeat;
+    height: 65px;
+    background-size: cover;
+    background-size: 100%;
+   
+    width: 255px;
+    }
+    @media (max-width: 768px) {
+        .navbarBlue {
+          font-size: 10px;
+        }
+      }
+
+      .form-select{
+        background-position: left .75rem center;
+      }

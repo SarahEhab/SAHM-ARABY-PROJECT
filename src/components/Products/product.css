@@ -1,0 +1,87 @@
+.profileButton{ 
+    background-image: url('../../images/ground-button.png');
+    background-repeat: no-repeat;
+    height: 65px;
+    background-size: cover;
+    background-size: 100%;
+    background-color: #FFFFFF;
+    width: 255px;
+    }
+.profileButtonUnAvalibale{ 
+    background-image: url('../../images/groundUN.png');
+    background-repeat: no-repeat;
+    height: 65px;
+    background-size: cover;
+    background-size: 100%;
+    background-color: #FFFFFF;
+    width: 255px;
+    }
+
+    .image-gallery-slide .image-gallery-image {
+         width: 50% !important ;
+        object-fit: contain;
+    }
+
+    .image-gallery-content .image-gallery-slide .image-gallery-image {
+        max-height: calc(100vh - 80px);
+        margin-top: 55px !important;
+    }
+
+    .image-gallery-icon {
+        display: none !important;
+    }
+
+    .greenImg{
+        background-image: url('../../images/green.png');
+        background-repeat: no-repeat;
+    
+    }
+    .greenImg2{
+        background-image: url('../../images/green.png');
+        background-repeat: no-repeat;
+        display: flex;
+        margin-left: 26px;
+    }
+
+    .accordion-body{
+        background-color: rgba(244, 245, 247, 1) !important;
+        color:#1F2937  !important;
+    }
+    .accordion-button{
+        background-color: rgba(244, 245, 247, 1) !important;
+        color:#039CED  !important;
+    }
+    .accordion-item{
+        border: none;
+    }
+    
+    .accordion-button::after {
+        /* Hide the default arrow icon */
+        display: none;
+    }
+    .accordion-button::before {
+        /* Add the @ symbol */
+        content: '+';
+        /* Add additional styling as needed */
+        font-size: 1.25rem;
+        color: #000;
+        margin-right: 0.5rem;
+    }
+    .accordion-button:not(.collapsed)::before {
+        content: '-';
+        font-size: 1.25rem;
+        color: #000;
+    }
+
+    @media (max-width: 768px) {
+        .title-card {
+           margin-left: 5px !important ;
+        }
+      }
+
+
+      /* @media (max-width: 992px) { 
+    .box-product{
+        background-color: black !important;
+    }
+   } */

@@ -1,0 +1,22 @@
+.bg-section{
+    background-image: url('../../images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.profileButton{ 
+    background-image: url('../../images/ground-button.png');
+    background-repeat: no-repeat;
+    height: 65px;
+    background-size: cover;
+    background-size: 100%;
+    background-color: #FFFFFF;
+    width: 255px;
+    }
+
+    .greenImg2{
+        background-image: url('../../images/green.png');
+        background-repeat: no-repeat;
+        display: flex;
+        margin-left: 26px;
+    }

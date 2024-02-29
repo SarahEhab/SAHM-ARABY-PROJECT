@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .navbarBlue {
+      font-size: 10px;
+    }
+  }
+@media (max-width: 768px) {
+    .icons {
+      justify-content: center;
+    }
+  }
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+.dropdown-menu{
+  --bs-dropdown-link-active-bg :var(--bs-tertiary-bg) !important;
+}

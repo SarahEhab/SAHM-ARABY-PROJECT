@@ -1,0 +1,8 @@
+
+@media (max-width: 768px) {
+    .bar-section
+     {
+     flex-direction: column;
+     gap: 15px;
+    }
+  }

@@ -1,0 +1,19 @@
+
+@media (max-width: 768px) { 
+    .card-info{
+   width: 100% !important;
+    }
+   }
+
+   .deleteButton{
+    border: 2px solid rgba(229, 25, 55, 0.09);
+    background-color: rgba(229, 25, 55, 0.09);
+    padding: 15px;
+    margin: 20px 5px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .deleteButton:hover{
+    background-color: rgba(229, 25, 55, 0.09) !important;
+    border-color: red;
+  }

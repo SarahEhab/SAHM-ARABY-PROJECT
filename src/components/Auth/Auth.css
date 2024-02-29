@@ -1,0 +1,18 @@
+.profileButton{ 
+    background-image: url('../../images/ground-button.png');
+    background-repeat: no-repeat;
+    height: 65px;
+    background-size: cover;
+    background-size: 100%;
+    background-color: rgb(237, 234, 234);
+    width: 255px;
+    }
+
+    .modal
+    {
+        --bs-modal-bg: none;
+    }
+    .btn-primary{
+        --bs-btn-hover-bg:'none';
+        --bs-btn-active-bg:'none'
+    }
