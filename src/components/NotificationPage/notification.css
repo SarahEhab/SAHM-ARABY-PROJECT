@@ -3,3 +3,8 @@
      width: 100% !important;
     }
   }
+  @media (max-width: 576px) { 
+    .icon-del{
+   margin-right: 50px !important;
+    }
+ }

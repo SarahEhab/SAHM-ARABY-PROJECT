@@ -8,7 +8,8 @@ import suportIcon from '../../images/t-suport.png'
 import ArrSupport from '../../images/arr-suport.png'
 import { Link } from 'react-router-dom';
 import NavbarLogin from '../NavBar/NavbarLogin';
-
+import { FaHeadset } from 'react-icons/fa';
+import { IoIosArrowBack } from "react-icons/io";
 const NewRequsetSupport = () => {
     return <>
     <NavBarBlue />
@@ -66,11 +67,11 @@ const NewRequsetSupport = () => {
                    <div style={{display:'flex', justifyContent:'space-between'}}>
 
                      <div style={{display:'flex',}}> 
-                      <div><img src={suportIcon} /></div>
+                     <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
                       <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني تتبع طلبي؟ </p>
                       </div>
 
-                      <div><img src={ArrSupport} /></div>
+                      <IoIosArrowBack style={{fontSize:'25px', color:'black'}} />
                    </div>
                 </div>
            </div>
@@ -81,11 +82,11 @@ const NewRequsetSupport = () => {
         <div style={{display:'flex', justifyContent:'space-between'}}>
 
           <div style={{display:'flex',}}> 
-           <div><img src={suportIcon} /></div>
+          <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
            <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني الغاء طلبي؟</p>
            </div>
 
-           <div><img src={ArrSupport} /></div>
+           <IoIosArrowBack style={{fontSize:'25px'}} />
         </div>
             </div>
            </div>
@@ -95,11 +96,11 @@ const NewRequsetSupport = () => {
         <div style={{display:'flex', justifyContent:'space-between'}}>
 
           <div style={{display:'flex',}}> 
-           <div><img src={suportIcon} /></div>
+          <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
            <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني الدفع؟</p>
            </div>
 
-           <div><img src={ArrSupport} /></div>
+           <IoIosArrowBack style={{fontSize:'25px'}} />
         </div>
                </div>
             </div>
@@ -110,11 +111,11 @@ const NewRequsetSupport = () => {
 <div style={{display:'flex', justifyContent:'space-between'}}>
 
 <div style={{display:'flex',}}> 
-<div><img src={suportIcon} /></div>
+<FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
 <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}>كيف يمكنني اضافة عنوان جديد</p>
 </div>
 
-<div><img src={ArrSupport} /></div>
+<IoIosArrowBack style={{fontSize:'25px'}} />
 </div>
 </div>
             </div>
@@ -125,11 +126,11 @@ const NewRequsetSupport = () => {
                     <div style={{display:'flex', justifyContent:'space-between'}}>
 
                     <div style={{display:'flex',}}> 
-                    <div><img src={suportIcon} /></div>
+                    <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
                     <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني تتبع طلبي؟ </p>
                     </div>
 
-                    <div><img src={ArrSupport} /></div>
+                    <IoIosArrowBack style={{fontSize:'25px'}} />
                     </div>
                 </div>
             </div>
@@ -140,11 +141,11 @@ const NewRequsetSupport = () => {
             <div style={{display:'flex', justifyContent:'space-between'}}>
 
             <div style={{display:'flex',}}> 
-            <div><img src={suportIcon} /></div>
+            <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
             <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني الغاء طلبي؟</p>
             </div>
 
-            <div><img src={ArrSupport} /></div>
+            <IoIosArrowBack style={{fontSize:'25px'}} />
             </div>
             </div>
             </div>
@@ -154,11 +155,11 @@ const NewRequsetSupport = () => {
             <div style={{display:'flex', justifyContent:'space-between'}}>
 
             <div style={{display:'flex',}}> 
-            <div><img src={suportIcon} /></div>
+            <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
             <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني الدفع؟</p>
             </div>
 
-            <div><img src={ArrSupport} /></div>
+            <IoIosArrowBack style={{fontSize:'25px'}} />
             </div>
             </div>
             </div>

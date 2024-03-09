@@ -10,10 +10,10 @@ import whats from "../../images/whatsup.png";
 import messgener from "../../images/messagnerr.png";
 import instagram from "../../images/instgram.png";
 import linkedIn from "../../images/linked.png";
-import sendIcon from "../../images/Send.png";
-import Mail from "../../images/Mail.png";
-import iPhone from "../../images/iPhone.png";
 import NavbarLogin from '../NavBar/NavbarLogin';
+import { TbLocation } from "react-icons/tb";
+import { HiOutlineMail } from "react-icons/hi";
+import { MdPhoneIphone } from "react-icons/md";
 const ContactUs = () => {
     return <>
     <NavBarBlue />
@@ -37,17 +37,17 @@ const ContactUs = () => {
             <div style={{display:'flex', justifyContent:'center', marginTop:'15px'}}>
             <div style={{display:'flex', justifyContent:'center', alignItems:'start', flexDirection:'column'}}>
               <div style={{display:'flex', justifyContent:'center', gap:'10px'}}>
-                <div><img src={sendIcon} /></div>
+              <TbLocation style={{fontSize:'25px', color:'#7EA91A'}} />
                 <p>  جمهورية مصر العربية – القاهرة</p>
             </div>
 
             <div style={{display:'flex', justifyContent:'center', gap:'10px'}}>
-              <div><img src={Mail} /></div>
+              <HiOutlineMail  style={{fontSize:'25px', color:'#7EA91A'}}/>
               <p> companyname@mail.net</p>
             </div>
 
             <div style={{display:'flex', justifyContent:'center', gap:'10px'}}>
-              <div><img src={iPhone} /></div>
+            <MdPhoneIphone style={{fontSize:'25px', color:'#7EA91A'}} />
               <p> 111 111 11 (02) - 111 111 11 (02)</p>
             </div>
 

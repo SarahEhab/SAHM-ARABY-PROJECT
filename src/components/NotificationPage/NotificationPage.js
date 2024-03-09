@@ -7,6 +7,7 @@ import logo from '../../images/logo.png'
 import deleteicon from "../../images/deleteIcon.png";
 import picNotifcation from "../../images/picNoti.png";
 import NavbarLogin from '../NavBar/NavbarLogin';
+import { RiDeleteBin5Line } from "react-icons/ri";
 const NofiticationPage = () => {
     return <>
     <NavBarBlue />
@@ -32,8 +33,18 @@ const NofiticationPage = () => {
                   <h5 style={{color:'#7EA91A', fontSize:'17px'}}>  
                   #3658744
                     </h5>
-               
-                    <img src={deleteicon} alt='' style={{paddingLeft:'10px'}}  />
+                    <RiDeleteBin5Line
+                  style={{
+                    paddingLeft: "10px",
+                    fontSize: "35px",
+                    color: "gray",
+                    padding: "5px",
+                    border:'1px solid #8080800d',
+                    background:'#8080800d',
+                    borderRadius:'25px', marginTop:'5px', marginLeft:'10px'
+                  }}
+                />
+                
                   </div>
                   
                   <Col sm='8' style={{ textAlign:'start'}} >
@@ -54,7 +65,17 @@ const NofiticationPage = () => {
                   #3658744
                     </h5>
                
-                    <img src={deleteicon} alt='' style={{paddingLeft:'10px'}}  />
+                    <RiDeleteBin5Line
+                  style={{
+                    paddingLeft: "10px",
+                    fontSize: "35px",
+                    color: "gray",
+                    padding: "5px",
+                    border:'1px solid #8080800d',
+                    background:'#8080800d',
+                    borderRadius:'25px', marginTop:'5px', marginLeft:'10px'
+                  }}
+                />
                   </div>
                   
                   <Col sm='8' style={{ textAlign:'start'}} >
@@ -76,7 +97,17 @@ const NofiticationPage = () => {
                     تطبيق السهم العربي
                     </h5>
             
-                    <img src={deleteicon} alt='' style={{paddingLeft:'10px'}}  />
+                    <RiDeleteBin5Line
+                  style={{
+                    paddingLeft: "10px",
+                    fontSize: "35px",
+                    color: "gray",
+                    padding: "5px",
+                    border:'1px solid #8080800d',
+                    background:'#8080800d',
+                    borderRadius:'25px', marginTop:'5px', marginLeft:'10px'
+                  }}
+                />
                   </div>
 
               <Col sm='8' style={{ textAlign:'start'}}>
@@ -99,7 +130,17 @@ const NofiticationPage = () => {
                     تطبيق السهم العربي
                     </h5>
                   
-                    <img src={deleteicon} alt='' style={{paddingLeft:'10px'}}  />
+                    <RiDeleteBin5Line
+                  style={{
+                    paddingLeft: "10px",
+                    fontSize: "35px",
+                    color: "gray",
+                    padding: "5px",
+                    border:'1px solid #8080800d',
+                    background:'#8080800d',
+                    borderRadius:'25px', marginTop:'5px', marginLeft:'10px'
+                  }}
+                />
                   </div>  
 
               <Col sm='8' style={{ textAlign:'start'}} >

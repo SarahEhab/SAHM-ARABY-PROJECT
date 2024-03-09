@@ -12,6 +12,7 @@ import IconChat2 from '../../images/iconchat2.png'
 import sendImg from '../../images/sendImg.png'
 import whiteSuport from '../../images/whiteSuport.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
+import { FaHeadset } from 'react-icons/fa';
 
 const PreviousReqChatPage2 = () => {
     return <>
@@ -67,7 +68,7 @@ const PreviousReqChatPage2 = () => {
                       <div style={{display:'flex', justifyContent:'space-between'}}>
               
                         <div style={{display:'flex',}}> 
-                        <div><img src={suportIcon} /></div>
+                        <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
                         <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني تتبع طلبي؟ </p>
                         </div>
               
@@ -94,7 +95,7 @@ const PreviousReqChatPage2 = () => {
                 <div style={{display:'flex', justifyContent:'space-between'}}>
                 
                   <div style={{display:'flex',}}> 
-                  <div><img src={suportIcon} /></div>
+                  <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
                   <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني الدفع؟</p>
                   </div>
                 

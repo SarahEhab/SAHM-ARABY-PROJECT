@@ -18,7 +18,8 @@ import apple from '../../images/apple2.png'
 import logo from '../../images/logo.png'
 import iconCountry from '../../images/iconCountry.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
-
+import { IoStorefrontOutline } from "react-icons/io5";
+import { MdFactory } from 'react-icons/md';
 const StorePartner = () => {
     return <>
 
@@ -103,9 +104,9 @@ const StorePartner = () => {
          <div style={{border :'none' , borderRadius:'15px' , width:'178px' , height:'33.74px' , 
              background:'linear-gradient(89.51deg, #02E4D8 -0.41%, #019AED 97.31%)', display:'flex', justifyContent:'center'
             , alignItems:'center', gap:'10px' }}>
-            <div>
-            <img src={iconStore} />
-            </div>
+
+            <IoStorefrontOutline style={{color:'#FFFFFF', fontSize:'20px'}}/>
+           
         
             <h6 style={{color:'#FFFFFF' , paddingTop:'4px'}}>متجر </h6>
           </div>
@@ -118,11 +119,8 @@ const StorePartner = () => {
         <div style={{border :'2px solid rgba(232, 232, 232, 1)' , borderRadius:'23px' , width:'178px' , height:'33.74px' , 
                background:'linear-gradient(0deg, #E8E8E8, #E8E8E8),linear-gradient(0deg, #F5F5F5, #F5F5F5)', display:'flex', justifyContent:'center'
             , alignItems:'center', gap:'10px' }}>
-               <div>
-            <img src={iconFactory} style={{marginTop:'-5px'}} />
-            </div>
-    
 
+              <MdFactory style={{color:'#7EA91A', fontSize:'20px'}} />
         
              <h6 style={{  color:'#636270' , fontSize:'15px', marginTop:'5px'}}>مصنع  </h6>
             

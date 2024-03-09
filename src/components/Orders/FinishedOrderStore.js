@@ -21,6 +21,9 @@ import prod4 from '../../images/prod4.png'
 import reorderImg from '../../images/reorderImg.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
 import ProductCard from '../Products/ProductCard';
+import { IoStorefrontOutline } from 'react-icons/io5';
+import { MdFactory } from 'react-icons/md';
+import { TbShoppingBag } from 'react-icons/tb';
 
 const FinishedOrderStore = () => {
     return <>
@@ -93,15 +96,24 @@ const FinishedOrderStore = () => {
                         </Form>
         
         
-        <div>
-          <img  src={StoresColor} width='30px' height='30px'  />
-                   <p style={{color:'#7EA91A', fontSize:'15px', fontWeight:'500', marginTop:'3px'}}> المتاجر</p>
-        </div>
+                        <div>
+    <IoStorefrontOutline style={{color:'#FFFFFF', fontSize:'30px', borderRadius:'25px',padding:'5px',
+    background:'linear-gradient(266.85deg, #7EA91A 2.11%, #AEDC44 98.8%)'}}/>
+     
+               <p style={{color:'#7EA91A', fontSize:'15px', fontWeight:'500', marginTop:'3px'}}> المتاجر</p>
+    </div>
                    
     
     
     <Link to='/finished-order-factory' style={{textDecoration:'none'}}> 
-                    <img src={FacWhite} alt=''  width='35px' height="35px" style={{marginTop:'-2px'}}  />
+    {/* <MdFactory  style={{color:'linear-gradient(266.85deg, #7EA91A 2.11%, #AEDC44 98.8%)', fontSize:'30px', borderRadius:'25px',padding:'5px',
+    background:'#FFFFFF',marginTop:'-2px'}}/> */}
+
+
+<MdFactory    style={{color:'#7EA91A', fontSize:'35px', borderRadius:'25px',padding:'5px',
+    background:'#FFFFFF', border:'1px solid #7EA91A4D'}}/>
+
+                    {/* <img src={FacWhite} alt=''  width='35px' height="35px" style={{marginTop:'-2px'}}  /> */}
                     <p style={{color:'#585858', fontSize:'15px', fontWeight:'500'}}> المصانع</p>
                     </Link>
                     </div>
@@ -136,12 +148,12 @@ const FinishedOrderStore = () => {
     
       <div>
         <div style={{display:'flex', gap:'8px'}}> 
-        <div><img src={numberImg} /></div>
+        <TbShoppingBag style={{color:'#7EA91A', fontSize:'25px', marginRight:'-3px' }}/>
         <p style={{fontSize:'18px', color:'#585858'}}> عدد المنتجات: 3</p>
         </div>
     
         <div style={{display:'flex', gap:'8px', marginTop:'-10px'}}> 
-        <div><img src={storeColor} /></div>
+        <IoStorefrontOutline  style={{color:'#7EA91A', fontSize:'20px' }}/>
         <p style={{fontSize:'18px', color:'#585858'}} > عدد المتاجر: 2</p>
         </div>
     
@@ -185,12 +197,12 @@ const FinishedOrderStore = () => {
     
       <div>
         <div style={{display:'flex', gap:'8px'}}> 
-        <div><img src={numberImg} /></div>
+        <TbShoppingBag style={{color:'#7EA91A', fontSize:'25px' , marginRight:'-3px'}}/>
         <p style={{fontSize:'18px', color:'#585858'}}> عدد المنتجات: 3</p>
         </div>
     
         <div style={{display:'flex', gap:'8px', marginTop:'-10px'}}> 
-        <div><img src={storeColor} /></div>
+        <IoStorefrontOutline  style={{color:'#7EA91A', fontSize:'20px' }}/>
         <p style={{fontSize:'18px', color:'#585858'}} > عدد المتاجر: 2</p>
         </div>
     

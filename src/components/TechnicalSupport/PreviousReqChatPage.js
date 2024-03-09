@@ -12,6 +12,7 @@ import IconChat2 from '../../images/iconchat2.png'
 import sendImg from '../../images/sendImg.png'
 import whiteSuport from '../../images/whiteSuport.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
+import { FaHeadset, FaRegSmile } from 'react-icons/fa';
 
 const PreviousReqChatPage = () => {
     return <>
@@ -67,7 +68,7 @@ const PreviousReqChatPage = () => {
             <div style={{display:'flex', justifyContent:'space-between'}}>
 
               <div style={{display:'flex',}}> 
-              <div><img src={suportIcon} /></div>
+              <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
               <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني تتبع طلبي؟ </p>
               </div>
 
@@ -94,7 +95,7 @@ const PreviousReqChatPage = () => {
 <div style={{display:'flex', justifyContent:'space-between'}}>
 
 <div style={{display:'flex',}}> 
-<div><img src={suportIcon} /></div>
+<FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
 <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني الدفع؟</p>
 </div>
 
@@ -160,7 +161,7 @@ fontWeight:'bold', background:'rgb(126 169 26 / 12%)', marginBottom:'15px'}}>ت�
                     , background:'linear-gradient(0deg, #E3E3E3, #E3E3E3),linear-gradient(0deg, #F5F5F5, #F5F5F5)'}}
                   />
                     <div style={{display:'flex', justifyContent:'flex-end', marginTop:'-40px', gap:'10px', paddingLeft:'15px'}}>
-                         <div style={{}}><img src={IconChat} alt=''  style={{}}/></div>
+                    <FaRegSmile style={{color:'gray', fontSize:'25px'}} />
                            <div style={{}} ><img src={IconChat2} alt=''  style={{}}/></div>
                     </div>                    
             </div>

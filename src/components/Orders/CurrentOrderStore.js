@@ -20,7 +20,9 @@ import prod5 from '../../images/prod5.png'
 import prod4 from '../../images/prod4.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
 import ProductCard from '../Products/ProductCard';
-
+import { IoStorefrontOutline } from 'react-icons/io5';
+import { MdFactory } from 'react-icons/md';
+import { TbShoppingBag } from "react-icons/tb";
 
 const CurrentOrderStore = () => {
     return <>
@@ -92,14 +94,17 @@ const CurrentOrderStore = () => {
     
     
     <div>
-      <img  src={StoresColor} width='30px' height='30px'  />
+    <IoStorefrontOutline style={{color:'#FFFFFF', fontSize:'30px', borderRadius:'25px',padding:'5px',
+    background:'linear-gradient(266.85deg, #7EA91A 2.11%, #AEDC44 98.8%)'}}/>
+     
                <p style={{color:'#7EA91A', fontSize:'15px', fontWeight:'500', marginTop:'3px'}}> المتاجر</p>
     </div>
                
 
 
 <Link to='/current-order-factory' style={{textDecoration:'none'}}> 
-                <img src={FacWhite} alt=''  width='35px' height="35px" style={{marginTop:'-2px'}}  />
+<MdFactory    style={{color:'#7EA91A', fontSize:'35px', borderRadius:'25px',padding:'5px',
+    background:'#FFFFFF', border:'1px solid #7EA91A4D'}}/>
                 <p style={{color:'#585858', fontSize:'15px', fontWeight:'500'}}> المصانع</p>
                 </Link>
                 </div>
@@ -134,12 +139,13 @@ padding:'10px 20px'}}>
 
   <div>
     <div style={{display:'flex', gap:'8px'}}> 
-    <div><img src={numberImg} /></div>
+   
+    <TbShoppingBag style={{color:'#7EA91A', fontSize:'25px' , marginRight:'-3px'}}/>
     <p style={{fontSize:'18px', color:'#585858'}}> عدد المنتجات: 3</p>
     </div>
 
     <div style={{display:'flex', gap:'8px', marginTop:'-10px'}}> 
-    <div><img src={storeColor} /></div>
+    <IoStorefrontOutline  style={{color:'#7EA91A', fontSize:'20px' }}/>
     <p style={{fontSize:'18px', color:'#585858'}} > عدد المتاجر: 2</p>
     </div>
 
@@ -166,12 +172,12 @@ padding:'10px 20px'}}>
 
   <div>
     <div style={{display:'flex', gap:'8px'}}> 
-    <div><img src={numberImg} /></div>
+    <TbShoppingBag style={{color:'#7EA91A', fontSize:'25px' , marginRight:'-3px'}}/>
     <p style={{fontSize:'18px', color:'#585858'}}> عدد المنتجات: 3</p>
     </div>
 
     <div style={{display:'flex', gap:'8px', marginTop:'-10px'}}> 
-    <div><img src={storeColor} /></div>
+    <IoStorefrontOutline  style={{color:'#7EA91A', fontSize:'20px' }}/>
     <p style={{fontSize:'18px', color:'#585858'}} > عدد المتاجر: 2</p>
     </div>
 

@@ -6,6 +6,7 @@ import suportIcon from '../../images/t-suport.png'
 import ArrSupport from '../../images/arr-suport.png'
 import { Link } from 'react-router-dom';
 import NavbarLogin from '../NavBar/NavbarLogin';
+import { FaHeadset } from 'react-icons/fa';
 
 const PreviousReqSupport = () => {
     return <>
@@ -65,7 +66,7 @@ const PreviousReqSupport = () => {
                             <div style={{display:'flex', justifyContent:'space-between'}}>
 
                               <div style={{display:'flex',}}> 
-                                <div><img src={suportIcon} /></div>
+                              <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
                                 <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني تتبع طلبي؟ </p>
                                 </div>
 
@@ -92,7 +93,7 @@ const PreviousReqSupport = () => {
                   <div style={{display:'flex', justifyContent:'space-between'}}>
 
                     <div style={{display:'flex',}}> 
-                    <div><img src={suportIcon} /></div>
+                    <FaHeadset style={{color:'#7EA91A', fontSize:'25px'}} />
                     <p style={{color:'#220E5F', fontSize:'17px', fontWeight:'500', paddingRight:'8px'}}> كيف يمكنني الدفع؟</p>
                     </div>
 

@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import NavBarBlue from '../NavBar/NavBarBlue';
 import {  Col, Container, Form, Modal, Row } from 'react-bootstrap';
 import addPic from '../../images/addPic.png'
-import edit from '../../images/edit.png'
 import mapPic from '../../images/mapp.png'
-import deleteIcon from '../../images/deleteIcon.png'
 import homeLocation from '../../images/home-locate.png'
 import './address.css'
 import NavbarLogin from './../NavBar/NavbarLogin';
+import { RiDeleteBin5Line } from "react-icons/ri";
+import { AiOutlineEdit } from "react-icons/ai";
+import { ImLocation2 } from "react-icons/im";
 const AddressPage = () => {
 
     const [show, setShow] = useState(false);
@@ -156,7 +157,8 @@ const AddressPage = () => {
                <div>
     
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginRight:'15px'}}>
-                     <div><img src={homeLocation}/></div>
+                     <ImLocation2 style={{color:'rgb(71 129 255)', fontSize:'30px'}} />
+                    
                      <div style={{marginRight:'10px', marginTop:'10px'}}>
                          <h6 style={{color:'#220E5F', fontWeight:'bold', textAlign:'start'}} >المنزل  </h6>
                           <p style={{color:'#585858', marginTop:'-5px', textAlign:'start'}}>  18، شارع النصر، قسم المعادي</p>
@@ -165,7 +167,15 @@ const AddressPage = () => {
                 </div>
     
                 <div style={{marginTop:'17px', marginLeft:'10px'}}>
-                   <img src={edit} />
+                <AiOutlineEdit  style={{
+                                  paddingLeft: "10px",
+                                  fontSize: "35px",
+                                  color:'#7EA91A',
+                                  padding: "5px",
+                                  border:'1.07px solid #E1E1E1',
+                                  background:'#F1F1F1',
+                                  borderRadius:'25px', marginLeft:'10px'
+                                }}/>
                  </div>         
               </div>
            </div>
@@ -174,7 +184,7 @@ const AddressPage = () => {
              <div style={{display:'flex', justifyContent:'space-between'}}>  
                 <div>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginRight:'15px'}}>
-                        <div><img src={homeLocation}/></div>
+                          <ImLocation2 style={{color:'rgb(71 129 255)', fontSize:'30px'}} />
                           <div style={{marginRight:'10px', marginTop:'10px'}}>
                                <h6 style={{color:'#220E5F', fontWeight:'bold', textAlign:'start'}} >العمل  </h6>
                                 <p style={{color:'#585858', marginTop:'-5px', textAlign:'start'}}>  18، شارع النصر، قسم المعادي</p>
@@ -184,8 +194,28 @@ const AddressPage = () => {
                  </div>
     
                  <div style={{marginTop:'17px', marginLeft:'10px', display:'flex'}}>
-                              <div><img src={deleteIcon} style={{marginLeft:'10px'}} /></div>
-                              <div><img src={edit} /></div> 
+                             
+                              <RiDeleteBin5Line
+                                style={{
+                                  paddingLeft: "10px",
+                                  fontSize: "35px",
+                                  color: "#7A808A",
+                                  padding: "5px",
+                                  border:'1.07px solid #E1E1E1',
+                                  background:'#F1F1F1',
+                                  borderRadius:'25px', marginLeft:'10px'
+                                }}
+                              />
+                              <AiOutlineEdit  style={{
+                                  paddingLeft: "10px",
+                                  fontSize: "35px",
+                                  color:'#7EA91A',
+                                  padding: "5px",
+                                  border:'1.07px solid #E1E1E1',
+                                  background:'#F1F1F1',
+                                  borderRadius:'25px', marginLeft:'10px'
+                                }}/>
+                            
                   </div>             
               </div>
     
@@ -196,7 +226,7 @@ const AddressPage = () => {
              <div style={{display:'flex', justifyContent:'space-between'}}>  
                 <div>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginRight:'15px'}}>
-                        <div><img src={homeLocation}/></div>
+                        <ImLocation2 style={{color:'rgb(71 129 255)', fontSize:'30px'}} />
                           <div style={{marginRight:'10px', marginTop:'10px'}}>
                                <h6 style={{color:'#220E5F', fontWeight:'bold', textAlign:'start'}} >العمل -2 </h6>
                                 <p style={{color:'#585858', marginTop:'-5px', textAlign:'start'}}>  18، شارع النصر، قسم المعادي</p>
@@ -206,8 +236,26 @@ const AddressPage = () => {
                  </div>
     
                  <div style={{marginTop:'17px', marginLeft:'10px', display:'flex'}}>
-                              <div><img src={deleteIcon} style={{marginLeft:'10px'}} /></div>
-                              <div><img src={edit} /></div> 
+                           <RiDeleteBin5Line
+                                style={{
+                                  paddingLeft: "10px",
+                                  fontSize: "35px",
+                                  color: "gray",
+                                  padding: "5px",
+                                  border:'1.07px solid #E1E1E1',
+                                  background:'#F1F1F1',
+                                  borderRadius:'25px', marginLeft:'10px'
+                                }}
+                              />
+                             <AiOutlineEdit  style={{
+                                  paddingLeft: "10px",
+                                  fontSize: "35px",
+                                  color:'#7EA91A',
+                                  padding: "5px",
+                                  border:'1.07px solid #E1E1E1',
+                                  background:'#F1F1F1',
+                                  borderRadius:'25px', marginLeft:'10px'
+                                }}/>
                   </div>             
               </div>
     
@@ -218,7 +266,7 @@ const AddressPage = () => {
              <div style={{display:'flex', justifyContent:'space-between'}}>  
                 <div>
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginRight:'15px'}}>
-                        <div><img src={homeLocation}/></div>
+                         <ImLocation2 style={{color:'rgb(71 129 255)', fontSize:'30px'}} />
                           <div style={{marginRight:'10px', marginTop:'10px'}}>
                                <h6 style={{color:'#220E5F', fontWeight:'bold', textAlign:'start'}} >العمل -3 </h6>
                                 <p style={{color:'#585858', marginTop:'-5px', textAlign:'start'}}>  18، شارع النصر، قسم المعادي</p>
@@ -228,8 +276,26 @@ const AddressPage = () => {
                  </div>
     
                  <div style={{marginTop:'17px', marginLeft:'10px', display:'flex'}}>
-                              <div><img src={deleteIcon} style={{marginLeft:'10px'}} /></div>
-                              <div><img src={edit} /></div> 
+                              <RiDeleteBin5Line
+                                style={{
+                                  paddingLeft: "10px",
+                                  fontSize: "35px",
+                                  color: "gray",
+                                  padding: "5px",
+                                  border:'1.07px solid #E1E1E1',
+                                  background:'#F1F1F1',
+                                  borderRadius:'25px', marginLeft:'10px'
+                                }}
+                              />
+                             <AiOutlineEdit  style={{
+                                  paddingLeft: "10px",
+                                  fontSize: "35px",
+                                  color:'#7EA91A',
+                                  padding: "5px",
+                                  border:'1.07px solid #E1E1E1',
+                                  background:'#F1F1F1',
+                                  borderRadius:'25px', marginLeft:'10px'
+                                }}/>
                   </div>             
               </div>
     

@@ -24,6 +24,9 @@ import dif from '../../images/dif.png'
 import reorderImg from '../../images/reorderImg.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
 import ProductCard from '../Products/ProductCard';
+import { MdFactory } from 'react-icons/md';
+import { IoStorefrontOutline } from 'react-icons/io5';
+import { TbShoppingBag } from 'react-icons/tb';
 const FinishedOrderFactory = () => {
     return <>
 
@@ -92,14 +95,17 @@ const FinishedOrderFactory = () => {
                         </Form>
  <Link to='/finished-order-store' style={{textDecoration:'none'}}> 
         <div style={{marginTop:'-5px'}}>
-          <img  src={storeWhite} width='35px' height='35px'  />
+        <IoStorefrontOutline  style={{color:'#7EA91A', fontSize:'35px', borderRadius:'25px',padding:'5px',
+    background:'#FFFFFF', border:'1px solid #7EA91A4D'}}/>
                    <p style={{color:'#585858', fontSize:'15px', fontWeight:'500', marginTop:'3px'}}> المتاجر</p>
         </div>
        </Link>            
     
     
     <div  style={{display:'flex', flexDirection:'column'}}> 
-                    <img src={factory} alt=''  width='35px' height="35px" style={{marginTop:'-2px'}}  />
+    <MdFactory  style={{color:'#FFFFFF', fontSize:'30px', borderRadius:'25px',padding:'5px',
+    background:'linear-gradient(266.85deg, #7EA91A 2.11%, #AEDC44 98.8%)'}}/>
+     
                     <p style={{color:'#7EA91A', fontSize:'15px', fontWeight:'500'}}> المصانع</p>
                     </div>
                     </div>
@@ -133,12 +139,12 @@ const FinishedOrderFactory = () => {
     
       <div>
         <div style={{display:'flex', gap:'8px'}}> 
-        <div><img src={numberImg} /></div>
+        <TbShoppingBag style={{color:'#7EA91A', fontSize:'25px' , marginRight:'-3px'}}/>
         <p style={{fontSize:'18px', color:'#585858'}}> عدد المنتجات: 3</p>
         </div>
     
         <div style={{display:'flex', gap:'8px', marginTop:'-10px'}}> 
-        <div><img src={iconFactory} /></div>
+        <MdFactory    style={{color:'#7EA91A', fontSize:'20px'}}/>
         <p style={{fontSize:'18px', color:'#585858'}} > عدد المصانع: 2</p>
         </div>
     
@@ -176,12 +182,12 @@ fontWeight:'bold',  display:'flex'}}> <div> <img src={reorderImg} style={{paddin
     
       <div>
         <div style={{display:'flex', gap:'8px'}}> 
-        <div><img src={numberImg} /></div>
+        <TbShoppingBag style={{color:'#7EA91A', fontSize:'25px' , marginRight:'-3px'}}/>
         <p style={{fontSize:'18px', color:'#585858'}}> عدد المنتجات: 3</p>
         </div>
     
         <div style={{display:'flex', gap:'8px', marginTop:'-10px'}}> 
-        <div><img src={iconFactory} /></div>
+        <MdFactory    style={{color:'#7EA91A', fontSize:'20px'}}/>
         <p style={{fontSize:'18px', color:'#585858'}} > عدد المصانع: 2</p>
         </div>
     
@@ -220,12 +226,12 @@ fontWeight:'bold',  display:'flex'}}> <div> <img src={reorderImg} style={{paddin
     
       <div>
         <div style={{display:'flex', gap:'8px'}}> 
-        <div><img src={numberImg} /></div>
+        <TbShoppingBag style={{color:'#7EA91A', fontSize:'25px' , marginRight:'-3px'}}/>
         <p style={{fontSize:'18px', color:'#585858'}}> عدد المنتجات: 3</p>
         </div>
     
         <div style={{display:'flex', gap:'8px', marginTop:'-10px'}}> 
-        <div><img src={iconFactory} /></div>
+        <MdFactory    style={{color:'#7EA91A', fontSize:'20px'}}/>
         <p style={{fontSize:'18px', color:'#585858'}} > عدد المصانع: 2</p>
         </div>
     

@@ -2,9 +2,6 @@ import React from 'react';
 import { Col, Container, Row} from 'react-bootstrap';
 import './footer.css'
 import logo from '../../images/logo.png'
-import sendIcon from "../../images/Send.png";
-import Mail from "../../images/Mail.png";
-import iPhone from "../../images/iPhone.png";
 import facebook from '../../images/facebook.png'
 import instgram from '../../images/instagram.png'
 import whats from '../../images/whats.png'
@@ -13,6 +10,9 @@ import youtube from '../../images/youtube.png'
 import googlePlay from '../../images/google-play.png'
 import cat1 from '../../images/cat1.png'
 import { Link } from 'react-router-dom';
+import { TbLocation } from "react-icons/tb";
+import { HiOutlineMail } from "react-icons/hi";
+import { MdPhoneIphone } from "react-icons/md";
 
 const Footer = () => {
     return <>
@@ -65,17 +65,17 @@ const Footer = () => {
        <div style={{display:'flex', justifyContent:'center', marginTop:'15px'}}>
             <div style={{display:'flex', justifyContent:'center', alignItems:'start', flexDirection:'column'}}>
               <div style={{display:'flex', justifyContent:'center', gap:'10px'}}>
-                <div><img src={sendIcon} /></div>
+              <TbLocation style={{fontSize:'25px', color:'#7EA91A'}} />
                 <p style={{fontSize:'15px'}}>  جمهورية مصر العربية – القاهرة</p>
             </div>
 
             <div style={{display:'flex', justifyContent:'center', gap:'10px'}}>
-              <div><img src={Mail} /></div>
+            <HiOutlineMail  style={{fontSize:'25px', color:'#7EA91A'}}/>
               <p style={{fontSize:'15px'}} > companyname@mail.net</p>
             </div>
 
             <div style={{display:'flex', justifyContent:'center', gap:'10px'}}>
-              <div><img src={iPhone} /></div>
+            <MdPhoneIphone style={{fontSize:'25px', color:'#7EA91A'}} />
               <p style={{fontSize:'15px'}} > 111 111 11 (02) - 111 111 11 (02)</p>
             </div>
 
