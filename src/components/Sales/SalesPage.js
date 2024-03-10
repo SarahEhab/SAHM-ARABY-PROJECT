@@ -27,6 +27,9 @@ import closeImg from '../../images/close.png'
 import { Link } from 'react-router-dom';
 import NavbarLogin from '../NavBar/NavbarLogin';
 import Pagination from '../Pagination/Pagination';
+import { FaStar } from 'react-icons/fa';
+import { IoHeartCircleSharp, IoSearch } from "react-icons/io5";
+import { IoMdCloseCircle } from 'react-icons/io';
 const SalesPage = () => {
     return <>
   <NavBarBlue />
@@ -183,7 +186,19 @@ const SalesPage = () => {
                     aria-label="Search"
                   
                     />
-                    <img src={search} alt='' width='20px' height="20px" style={{position:'absolute' , marginTop:'-30px' , marginRight:'70px'}}/>
+                   
+                   <IoSearch
+                        width="20px"
+                        height="20px"
+                        style={{
+                          position: "absolute",
+                          marginTop: "-30px",
+                          marginRight: "70px",
+                          fontSize: "22px",
+                          color: "#00000082",
+                        }}
+                        className="img-search"
+                      />
                 </Form>
 
             <div style={{display:'flex' , gap:'10px'}}>
@@ -227,7 +242,15 @@ const SalesPage = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -237,7 +260,7 @@ const SalesPage = () => {
         موبايل سامسونج جالاكسي بشريحتين اتصال
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -257,7 +280,15 @@ const SalesPage = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -267,7 +298,7 @@ const SalesPage = () => {
         تروفال حلة طهي كلاسيكية مقاس 24 سم 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -286,7 +317,15 @@ const SalesPage = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -297,7 +336,7 @@ const SalesPage = () => {
 بانتس عبوة ميجا 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -317,7 +356,15 @@ const SalesPage = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -326,7 +373,7 @@ const SalesPage = () => {
         <Card.Text>منعم اقمشة فلورا سوفت من كومفورت 3 لتر
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -346,7 +393,15 @@ const SalesPage = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -355,7 +410,7 @@ const SalesPage = () => {
         <Card.Text>سويت شيرت للرجال من اندورا
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -377,7 +432,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -385,12 +448,12 @@ const SalesPage = () => {
  <div style={{display:'flex', textAlign:'center', alignItems:'center', justifyContent:'center'}}> 
  <div style={{border: " 1.23px solid #E5193726", borderRadius:'20px', color:'#E51937', 
  fontWeight:'bold', background:'rgb(229 25 55 / 9%)', display:'flex', fontSize:'14px', padding:'3px'}}>
-<div><img src={closeImg} style={{paddingLeft:'5px', width:'25px'}}  /> </div>المنتج غير متوفر حالياً  </div>  </div>
+<div>    <IoMdCloseCircle style={{fontSize:'25px'}} /> </div>المنتج غير متوفر حالياً  </div>  </div>
        <Card.Text>
        منعم اقمشة فلورا سوفت من كومفورت 3 لتر
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -412,7 +475,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -422,7 +493,7 @@ const SalesPage = () => {
        تروفال حلة طهي كلاسيكية مقاس 24 سم 
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -441,7 +512,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -452,8 +531,7 @@ const SalesPage = () => {
 بانتس عبوة ميجا 
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
-                   
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
                <div style={{display:'flex', marginRight:'15px'}}>
@@ -472,7 +550,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -481,7 +567,7 @@ const SalesPage = () => {
        <Card.Text>موبايل سامسونج جالاكسي بشريحتين اتصال
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -501,7 +587,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -510,7 +604,7 @@ const SalesPage = () => {
        <Card.Text>سويت شيرت للرجال من اندورا
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -529,7 +623,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -539,7 +641,7 @@ const SalesPage = () => {
        منعم اقمشة فلورا سوفت من كومفورت 3 لتر
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -558,7 +660,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -568,7 +678,7 @@ const SalesPage = () => {
        تروفال حلة طهي كلاسيكية مقاس 24 سم 
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -587,7 +697,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -598,7 +716,7 @@ const SalesPage = () => {
 بانتس عبوة ميجا 
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -618,7 +736,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -627,7 +753,7 @@ const SalesPage = () => {
        <Card.Text>سويت شيرت للرجال من اندورا
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -647,7 +773,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -656,7 +790,7 @@ const SalesPage = () => {
        <Card.Text>سويت شيرت للرجال من اندورا
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -676,7 +810,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -686,7 +828,7 @@ const SalesPage = () => {
        منعم اقمشة فلورا سوفت من كومفورت 3 لتر
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -705,7 +847,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -715,7 +865,7 @@ const SalesPage = () => {
        تروفال حلة طهي كلاسيكية مقاس 24 سم 
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -734,7 +884,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -745,7 +903,7 @@ const SalesPage = () => {
 بانتس عبوة ميجا 
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -765,7 +923,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -774,7 +940,7 @@ const SalesPage = () => {
        <Card.Text>سويت شيرت للرجال من اندورا
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>
@@ -794,7 +960,15 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-               <img src={fav} alt='' style={{}} />
+             <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
              </div>
              
  <Card.Body>
@@ -803,7 +977,7 @@ const SalesPage = () => {
        <Card.Text>سويت شيرت للرجال من اندورا
        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                 <div><img src={star} alt=''  /></div>
+       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                </div>

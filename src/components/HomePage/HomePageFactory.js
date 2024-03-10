@@ -53,7 +53,8 @@ import cartIcon from '../../images/cartIcon.png'
 import orderIcon from '../../images/orderIcon.png'
 import favo from '../../images/favo.png'
 import greenGround from '../../images/greenGround.png'
-
+import { IoHeartCircleSharp, IoSearch } from "react-icons/io5";
+import { FaStar } from "react-icons/fa";
 const HomePageFactory = () => {
   const [show, setShow] = useState(false);
 
@@ -569,7 +570,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
                </div>
               
   <Card.Body>
@@ -582,7 +591,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
         منعم اقمشة فلورا سوفت من كومفورت 3 لتر
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -602,7 +611,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -615,7 +632,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
         تروفال حلة طهي كلاسيكية مقاس 24 سم 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -634,7 +651,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -648,7 +673,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
 بانتس عبوة ميجا 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -668,7 +693,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -677,7 +710,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
         <Card.Text>موبايل سامسونج جالاكسي بشريحتين اتصال
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -697,7 +730,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -706,7 +747,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
         <Card.Text>سويت شيرت للرجال من اندورا
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -726,7 +767,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -737,8 +786,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
 بانتس عبوة ميجا 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
-                    
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
                 <div style={{display:'flex', marginRight:'15px'}}>
@@ -792,7 +840,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
                </div>
               
   <Card.Body>
@@ -805,7 +861,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
         منعم اقمشة فلورا سوفت من كومفورت 3 لتر
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -826,7 +882,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -839,7 +903,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
         تروفال حلة طهي كلاسيكية مقاس 24 سم 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -858,7 +922,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -872,8 +944,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
 بانتس عبوة ميجا 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
-                    
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
                 <div style={{display:'flex', marginRight:'15px'}}>
@@ -892,7 +963,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -901,8 +980,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
         <Card.Text>موبايل سامسونج جالاكسي بشريحتين اتصال
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
-                    
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
                 <div style={{display:'flex', marginRight:'15px'}}>
@@ -921,7 +999,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -930,7 +1016,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
         <Card.Text>سويت شيرت للرجال من اندورا
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -950,7 +1036,15 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "33px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -961,7 +1055,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
 بانتس عبوة ميجا 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>

@@ -26,6 +26,8 @@ import icon3 from '../../images/icon3.png'
 import check from '../../images/check.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
 import ProductCard from '../Products/ProductCard';
+import { IoCheckmarkCircleOutline, IoHeartCircleSharp } from 'react-icons/io5';
+import { CgTrash } from "react-icons/cg";
 const CartElectronicWallet = () => {
     return <>
     <NavBarBlue />  
@@ -90,8 +92,27 @@ const CartElectronicWallet = () => {
     
            <div style={{display:'flex', justifyContent:'space-between', marginTop:'25px'}} >
            <div style={{display:'flex', marginRight:'-70px', gap:'8px'}}>
-           <div><img src={favo} style={{width:'34px'}}/></div>
-             <div><img src={deleteIcon}/></div>
+           <div> <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "34px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    /></div>
+   <CgTrash
+                  style={{
+                    paddingLeft: "10px",
+                    fontSize: "34px",
+                    color: "gray",
+                    padding: "3px",
+                    border:'1px solid #8080800d',
+                    background:'rgb(166 166 166 / 22%)',
+                    borderRadius:'25px', marginLeft:'10px'
+                  }}
+                />
+                  
             
            </div>
     
@@ -184,8 +205,27 @@ const CartElectronicWallet = () => {
     
     <div style={{display:'flex', justifyContent:'space-between', marginTop:'25px'}} >
     <div style={{display:'flex', marginRight:'-70px', gap:'8px'}}>
-    <div><img src={favo} style={{width:'34px'}}/></div>
-    <div><img src={deleteIcon}/></div>
+    <div> <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "34px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    /></div>
+   <CgTrash
+                  style={{
+                    paddingLeft: "10px",
+                    fontSize: "34px",
+                    color: "gray",
+                    padding: "3px",
+                    border:'1px solid #8080800d',
+                    background:'rgb(166 166 166 / 22%)',
+                    borderRadius:'25px', marginLeft:'10px'
+                  }}
+                />
+                  
     
     </div>
     
@@ -254,9 +294,27 @@ const CartElectronicWallet = () => {
     
     <div style={{display:'flex', justifyContent:'space-between', marginTop:'25px'}} >
     <div style={{display:'flex', marginRight:'-70px', gap:'8px', marginTop:'40px'}}>
-    <div><img src={favo} style={{width:'34px'}}/></div>
-    <div><img src={deleteIcon}/></div>
-    
+    <div> <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "34px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    /></div>
+   <CgTrash
+                  style={{
+                    paddingLeft: "10px",
+                    fontSize: "34px",
+                    color: "gray",
+                    padding: "3px",
+                    border:'1px solid #8080800d',
+                    background:'rgb(166 166 166 / 22%)',
+                    borderRadius:'25px', marginLeft:'10px'
+                  }}
+                />
+                  
     </div>
     
     
@@ -420,7 +478,7 @@ const CartElectronicWallet = () => {
                       , paddingTop:'10px', display:'flex', justifyContent:'center' }} 
                     className='profileButton2' > 
                     
-                    تاكيد الطلب   <div>  <img src={check} style={{paddingRight:'5px'}}/>  </div>  </div>
+                    تاكيد الطلب    <div><IoCheckmarkCircleOutline style={{paddingRight:'5px', fontSize:'30px'}} />   </div>   </div>
                     
               </div>
           

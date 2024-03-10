@@ -9,6 +9,8 @@ import prod4 from '../../images/prod4.png'
 import prod5 from '../../images/prod5.png'
 import star from '../../images/star.png'
 import { Card } from 'react-bootstrap';
+import { IoHeartCircleSharp, IoSearch } from "react-icons/io5";
+import { FaStar } from "react-icons/fa";
 const ProductCard = () => {
     return <>
         <div class="  row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 ">
@@ -22,7 +24,15 @@ const ProductCard = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -32,7 +42,7 @@ const ProductCard = () => {
        موبايل سامسونج جالاكسي بشريحتين اتصال   
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -53,7 +63,15 @@ const ProductCard = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -63,7 +81,7 @@ const ProductCard = () => {
         تروفال حلة طهي كلاسيكية مقاس 24 سم 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -82,7 +100,15 @@ const ProductCard = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -93,7 +119,7 @@ const ProductCard = () => {
 بانتس عبوة ميجا 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -113,7 +139,15 @@ const ProductCard = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -122,8 +156,7 @@ const ProductCard = () => {
         <Card.Text>      نعم اقمشة فلورا سوفت من كومفورت 3 لتر
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
-                    
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
                 <div style={{display:'flex', marginRight:'15px'}}>
@@ -142,7 +175,15 @@ const ProductCard = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -151,7 +192,7 @@ const ProductCard = () => {
         <Card.Text>سويت شيرت للرجال من اندورا
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>
@@ -171,7 +212,15 @@ const ProductCard = () => {
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-                <img src={fav} alt='' style={{}} />
+              <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "30px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
               </div>
               
   <Card.Body>
@@ -182,7 +231,7 @@ const ProductCard = () => {
 بانتس عبوة ميجا 
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                  <div><img src={star} alt=''  /></div>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
                     <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
                 </div>

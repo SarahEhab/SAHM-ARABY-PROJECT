@@ -27,6 +27,10 @@ import { Link } from 'react-router-dom';
 import closeImg from '../../images/close.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
 import Pagination from '../Pagination/Pagination';
+import { FaStar } from 'react-icons/fa';
+import { IoHeartCircleSharp, IoSearch } from "react-icons/io5";
+import { IoMdCloseCircle } from 'react-icons/io';
+
 const SaleSortPage = () => {
     return <>
 
@@ -185,7 +189,19 @@ const SaleSortPage = () => {
                         aria-label="Search"
                       
                         />
-                        <img src={search} alt='' width='20px' height="20px" style={{position:'absolute' , marginTop:'-30px' , marginRight:'70px'}}/>
+                          
+                   <IoSearch
+                        width="20px"
+                        height="20px"
+                        style={{
+                          position: "absolute",
+                          marginTop: "-30px",
+                          marginRight: "70px",
+                          fontSize: "22px",
+                          color: "#00000082",
+                        }}
+                        className="img-search"
+                      />
                     </Form>
     
                 <div style={{display:'flex' , gap:'10px'}}>
@@ -229,7 +245,14 @@ const SaleSortPage = () => {
             
                        <div style={{display:'flex' , justifyContent:'center' }}  >
                      
-                        <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+                       <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
                          <img src={prod2} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
             
 
@@ -238,7 +261,7 @@ const SaleSortPage = () => {
                        
 
                          <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                      <div><img src={star} alt=''  /></div>
+                         <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                         
                         <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
                     </div>
@@ -277,7 +300,14 @@ const SaleSortPage = () => {
 
           <div style={{display:'flex' , justifyContent:'center' }}  >
         
-           <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+                      <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
             <img src={prod3} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -287,11 +317,11 @@ const SaleSortPage = () => {
             <div style={{display:'flex', textAlign:'center', alignItems:'center'}}> 
                 <div style={{border: " 1.23px solid #E5193726", borderRadius:'20px', color:'#E51937', 
                 fontWeight:'bold', background:'rgb(229 25 55 / 9%)', display:'flex', fontSize:'14px', padding:'3px'}}>
-                <div><img src={closeImg} style={{paddingLeft:'5px', width:'25px'}}  /> </div>المنتج غير متوفر حالياً  </div>  </div>
+                <div>    <IoMdCloseCircle style={{fontSize:'25px'}} /> </div>المنتج غير متوفر حالياً  </div>  </div>
 
 
             <div style={{display:'flex', marginRight:'15px'}}>
-         <div><img src={star} alt=''  /></div>
+            <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
            
            <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
        </div>
@@ -329,7 +359,14 @@ const SaleSortPage = () => {
 
           <div style={{display:'flex' , justifyContent:'center' }}  >
         
-           <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+                    <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
             <img src={prod5} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -338,7 +375,7 @@ const SaleSortPage = () => {
           
 
             <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-         <div><img src={star} alt=''  /></div>
+            <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
            
            <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
        </div>
@@ -375,7 +412,14 @@ const SaleSortPage = () => {
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+                    <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod4} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -384,7 +428,7 @@ const SaleSortPage = () => {
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -422,7 +466,14 @@ const SaleSortPage = () => {
 
           <div style={{display:'flex' , justifyContent:'center' }}  >
         
-           <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+                     <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
             <img src={prod2} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -431,7 +482,7 @@ const SaleSortPage = () => {
           
 
             <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-         <div><img src={star} alt=''  /></div>
+            <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
            
            <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
        </div>
@@ -470,7 +521,14 @@ const SaleSortPage = () => {
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+                    <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod3} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -479,7 +537,7 @@ const SaleSortPage = () => {
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -518,7 +576,14 @@ const SaleSortPage = () => {
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+                    <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod5} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -527,7 +592,7 @@ const SaleSortPage = () => {
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -565,7 +630,14 @@ const SaleSortPage = () => {
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+<div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod4} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -574,7 +646,7 @@ const SaleSortPage = () => {
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -612,7 +684,14 @@ const SaleSortPage = () => {
 
           <div style={{display:'flex' , justifyContent:'center' }}  >
         
-           <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+          <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
             <img src={prod2} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -621,8 +700,7 @@ const SaleSortPage = () => {
           
 
             <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-         <div><img src={star} alt=''  /></div>
-           
+            <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />     
            <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
        </div>
 
@@ -660,7 +738,14 @@ const SaleSortPage = () => {
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+<div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod3} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -669,7 +754,7 @@ const SaleSortPage = () => {
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -708,7 +793,14 @@ const SaleSortPage = () => {
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+<div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod5} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -717,7 +809,7 @@ const SaleSortPage = () => {
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -755,7 +847,14 @@ const SaleSortPage = () => {
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+<div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod4} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -764,7 +863,7 @@ const SaleSortPage = () => {
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>

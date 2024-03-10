@@ -21,6 +21,10 @@ import group1 from "../../images/Group2.png";
 import sortIcon from "../../images/sort-icon.png";
 import NavbarLogin from '../NavBar/NavbarLogin';
 import Pagination from '../Pagination/Pagination';
+import { IoHeartCircleSharp, IoSearch } from "react-icons/io5";
+import { FaStar } from "react-icons/fa";
+import { IoMdCloseCircle } from "react-icons/io";
+import { Link } from 'react-router-dom';
 const FactorySortDetailes = () => {
     return <>
 
@@ -43,7 +47,15 @@ const FactorySortDetailes = () => {
                             </div>
     
                             <div style={{display:'flex', justifyContent:'center', gap:'10px', marginTop:'-8px', marginBottom:'15px'}}>
-                             <div><img src={fav} /></div>
+                            <IoHeartCircleSharp
+                      style={{
+                        color: "#FFFFFF",
+                        fontSize: "45px",
+                        marginRight: "-30px",
+                        cursor:'pointer'
+                      }}
+                    
+                    />
                              <div><img src={share} /></div>
                             </div>
                     </div>
@@ -135,7 +147,18 @@ const FactorySortDetailes = () => {
                         aria-label="Search"
                       
                         />
-                        <img src={search} alt='' width='20px' height="20px" style={{position:'absolute' , marginTop:'-30px' , marginRight:'70px'}}/>
+                       <IoSearch
+                        width="20px"
+                        height="20px"
+                        style={{
+                          position: "absolute",
+                          marginTop: "-30px",
+                          marginRight: "70px",
+                          fontSize: "22px",
+                          color: "#00000082",
+                        }}
+                        className="img-search"
+                      />
                     </Form>
     
                 <div style={{display:'flex' , gap:'10px'}}>
@@ -155,12 +178,13 @@ const FactorySortDetailes = () => {
                     </NavDropdown.Item>
                  </NavDropdown>
     
-    
-               <img 
-                   src={group1} 
-                   width='35px' 
-                  height='35px' 
-                   />
+                 <Link to='/factory-detailes'>
+                      <img 
+                          src={group1} 
+                          width='35px' 
+                          height='35px' 
+                          />
+                   </Link>
                 <img src={group} alt=''  width='35px' height="35px"  />
                 </div>
                 </div>
@@ -177,7 +201,14 @@ const FactorySortDetailes = () => {
             
                        <div style={{display:'flex' , justifyContent:'center' }}  >
                      
-                        <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+                       <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
                          <img src={prod2} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
             
 
@@ -186,7 +217,7 @@ const FactorySortDetailes = () => {
                        
 
                          <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-                      <div><img src={star} alt=''  /></div>
+                         <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                         
                         <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
                     </div>
@@ -228,7 +259,14 @@ const FactorySortDetailes = () => {
 
           <div style={{display:'flex' , justifyContent:'center' }}  >
         
-           <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+          <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
             <img src={prod3} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -237,7 +275,7 @@ const FactorySortDetailes = () => {
           
 
             <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-         <div><img src={star} alt=''  /></div>
+            <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
            
            <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
        </div>
@@ -279,7 +317,14 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
           <div style={{display:'flex' , justifyContent:'center' }}  >
         
-           <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+          <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
             <img src={prod5} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -288,7 +333,7 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
           
 
             <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-         <div><img src={star} alt=''  /></div>
+            <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
            
            <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
        </div>
@@ -330,7 +375,14 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+<div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod4} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -339,7 +391,7 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -382,8 +434,14 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
           <div style={{display:'flex' , justifyContent:'center' }}  >
         
-           <div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
-            <img src={prod2} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
+          <div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>     <img src={prod2} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
           <div style={{display:'flex' , justifyContent:'center',flexDirection:'column' , padding:'10px' }} >
@@ -391,7 +449,7 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
           
 
             <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-         <div><img src={star} alt=''  /></div>
+            <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
            
            <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
        </div>
@@ -433,7 +491,14 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+<div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod3} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -442,7 +507,7 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -484,7 +549,14 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
 
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+<div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod5} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -493,7 +565,7 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -534,8 +606,14 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
 
 <div style={{display:'flex' , justifyContent:'center' }}  >
-
-<div><img src={fav} style={{position:'absolute', margin:'5px'}} /></div>
+<div>
+                       <IoHeartCircleSharp
+                      style={{
+                        color: "rgb(166 166 166 / 82%)",
+                        fontSize: "35px",
+                       position:'absolute', margin:'5px',
+                        cursor:'pointer', background:'#FFFFFF', borderRadius:'25px'
+                      }}/> </div>
 <img src={prod4} alt='' style={{marginTop:'15px', marginBottom:'15px', marginRight:'20px'}} />
 
 
@@ -544,7 +622,7 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
 
 
 <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-<div><img src={star} alt=''  /></div>
+<FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
 
 <p style={{color: "#7A808A", marginRight:'5px', fontSize:'17px'}}>4.5</p>
 </div>
@@ -596,7 +674,7 @@ style={{ color:'#FFFFFF', fontSize:'12px', marginRight:'10px', marginTop:'10px',
                 </Col>
     
       
-            </Row>
+             </Row>
             </Container>
     
         </>;
