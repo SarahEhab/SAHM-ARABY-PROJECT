@@ -47,7 +47,7 @@ const SalesPage = () => {
             <div><img src={right}/></div>
             <div><img src={left}/></div>
         </div>
-        
+         
 
 
   <div style={{}} className=" background-sale">

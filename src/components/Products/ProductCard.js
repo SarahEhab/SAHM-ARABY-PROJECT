@@ -14,11 +14,11 @@ import { FaStar } from "react-icons/fa";
 const ProductCard = () => {
     return <>
         <div style={{display:'flex', justifyContent:'center'}}  class="  row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 ">
-  <div class="col mb-3">
+  <div class="col mb-3"> 
  
 <Link to='/store-product'  style={{textDecoration:'none'}}>
 
-  <Card style={{ width: '100%' , height:'100%'}}>
+<Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
@@ -47,17 +47,17 @@ const ProductCard = () => {
 </Link>
 
     </div>
-    <div class="col mb-3">
- 
 
+
+     <div class="col mb-3">
+ 
     <Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <img src={favIcon} />
-                    
+                    <img src={favIcon} />
               </div>
               
   <Card.Body>
@@ -81,14 +81,13 @@ const ProductCard = () => {
 
     <div class="col mb-3">
  
-
-  <Card style={{ width: '100%' , height:'100%'}}>
+    <Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <img src={favIcon} />
+                    <img src={favIcon} />
               </div>
               
   <Card.Body>
@@ -111,13 +110,14 @@ const ProductCard = () => {
     </div>
 
     <div class="col mb-3">
+ 
     <Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <img src={favIcon} />
+                    <img src={favIcon} />
               </div>
               
   <Card.Body>
@@ -140,13 +140,14 @@ const ProductCard = () => {
     </div>
 
    <div class="col mb-3">
-   <Card style={{ width: '100%' , height:'100%'}}>
+ 
+    <Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <img src={favIcon} />
+                    <img src={favIcon} />
               </div>
               
   <Card.Body>
