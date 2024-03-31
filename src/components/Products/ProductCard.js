@@ -27,7 +27,7 @@ const ProductCard = () => {
                     <img src={favIcon} />
               </div>
               
-  <Card.Body>
+  <div>
   <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
        
         <Card.Text style={{marginTop:'5px'}}>
@@ -42,7 +42,7 @@ const ProductCard = () => {
                     <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
                 </div>
-      </Card.Body>
+      </div>
     </Card>
 </Link>
 
@@ -60,7 +60,7 @@ const ProductCard = () => {
                     <img src={favIcon} />
               </div>
               
-  <Card.Body>
+  <div>
   <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
        
         <Card.Text style={{marginTop:'5px'}}>
@@ -75,7 +75,7 @@ const ProductCard = () => {
                     <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
                 </div>
-      </Card.Body>
+      </div>
     </Card>
     </div>
 
