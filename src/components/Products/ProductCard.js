@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import offer from '../../images/off.png'
 import fav from '../../images/fav.png'
 import prod1 from '../../images/prod1.png'
-import prod2 from '../../images/prod2.png'
+import prod2 from '../../images/mob1.png'
 import prod3 from '../../images/prod3.png'
 import prod4 from '../../images/prod4.png'
 import prod5 from '../../images/prod5.png'
