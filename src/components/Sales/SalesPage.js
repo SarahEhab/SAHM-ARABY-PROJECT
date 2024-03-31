@@ -30,6 +30,7 @@ import Pagination from '../Pagination/Pagination';
 import { FaStar } from 'react-icons/fa';
 import { IoHeartCircleSharp, IoSearch } from "react-icons/io5";
 import { IoMdCloseCircle } from 'react-icons/io';
+import favIcon from '../../images/favIcon.svg'
 const SalesPage = () => {
     return <>
   <NavBarBlue />
@@ -236,112 +237,58 @@ const SalesPage = () => {
  
  
 <Link to='/store-product' style={{textDecoration:'none'}} >
-  <Card style={{ width: '100%' , height:'100%'}}>
+<Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
+                    <img src={favIcon} />
               </div>
               
   <Card.Body>
-  <img src={prod2} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
        
-        <Card.Text>
-        موبايل سامسونج جالاكسي بشريحتين اتصال
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
         <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
                 </div>
                 <div style={{display:'flex', marginRight:'15px'}}>
-                    <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
                 </div>
       </Card.Body>
     </Card>
 </Link> 
     </div>
+
     <div class="col mb-3">
- 
-  <Card style={{ width: '100%', height:'100%' }}>
+    <Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
+                    <img src={favIcon} />
               </div>
               
   <Card.Body>
-  <img src={prod1} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
        
-        <Card.Text>
-        تروفال حلة طهي كلاسيكية مقاس 24 سم 
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
         <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
                 </div>
                 <div style={{display:'flex', marginRight:'15px'}}>
-                    <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                   
-                </div>
-      </Card.Body>
-    </Card>
-    </div>
-    <div class="col mb-3">
- 
-  <Card style={{ width: '100%', height:'100%' }}>
-  <div style={{display:'flex'}}>
-                <img src={offer} alt='' style={{marginRight:'10px'}} />
-              </div>
-
-              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-              </div>
-              
-  <Card.Body>
-  <img src={prod3} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-       
-        <Card.Text>
-        مولفيكس حفاضات اطفال
-بانتس عبوة ميجا 
-        </Card.Text>
-        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                    
-                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-                </div>
-                <div style={{display:'flex', marginRight:'15px'}}>
-                    <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
                 </div>
       </Card.Body>
@@ -350,35 +297,58 @@ const SalesPage = () => {
 
     <div class="col mb-3">
  
-  <Card style={{ width: '100%', height:'100%' }}>
+   <Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
+                    <img src={favIcon} />
               </div>
               
   <Card.Body>
-  <img src={prod5} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
        
-        <Card.Text>منعم اقمشة فلورا سوفت من كومفورت 3 لتر
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
         <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
                 </div>
                 <div style={{display:'flex', marginRight:'15px'}}>
-                    <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 12.000 جنيه  </p>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
+    </div>
+
+    <div class="col mb-3">
+ 
+    <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
                 </div>
       </Card.Body>
@@ -387,40 +357,36 @@ const SalesPage = () => {
 
    <div class="col mb-3">
  
-  <Card style={{ width: '100%', height:'100%' }}>
+   <Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
               </div>
 
               <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-              <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
+                    <img src={favIcon} />
               </div>
               
   <Card.Body>
-  <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
        
-        <Card.Text>سويت شيرت للرجال من اندورا
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
         </Card.Text>
         <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
         <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
                 </div>
                 <div style={{display:'flex', marginRight:'15px'}}>
-                    <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 500 جنيه  </p>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
                 </div>
       </Card.Body>
     </Card>
     </div>
+
+
+
     <div class="col mb-3">
  
  <Link to='/store-product-unavailable' style={{textDecoration:'none'}}>
@@ -432,33 +398,25 @@ const SalesPage = () => {
              </div>
 
              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
+             <img src={favIcon} />
              </div>
              
  <Card.Body>
- <img src={prod5} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
+ <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
  <div style={{display:'flex', textAlign:'center', alignItems:'center', justifyContent:'center'}}> 
  <div style={{border: " 1.23px solid #E5193726", borderRadius:'20px', color:'#E51937', 
- fontWeight:'bold', background:'rgb(229 25 55 / 9%)', display:'flex', fontSize:'14px', padding:'3px'}}>
-<div>    <IoMdCloseCircle style={{fontSize:'25px'}} /> </div>المنتج غير متوفر حالياً  </div>  </div>
-       <Card.Text>
-       منعم اقمشة فلورا سوفت من كومفورت 3 لتر
-       </Card.Text>
+ fontWeight:'bold', background:'rgb(229 25 55 / 9%)', display:'flex', fontSize:'10px', padding:'3px'}}>
+<div>    <IoMdCloseCircle /> </div>المنتج غير متوفر حالياً  </div>  </div>
+<Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                    
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
+                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
                </div>
                <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
+                   <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                   
                </div>
      </Card.Body>
@@ -467,526 +425,424 @@ const SalesPage = () => {
    </Link>
 
    </div>
+
    <div class="col mb-3">
 
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
+   <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
 
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod1} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>
-       تروفال حلة طهي كلاسيكية مقاس 24 سم 
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
-   </div>
-   <div class="col mb-3 ">
-
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
-
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod3} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>
-       مولفيكس حفاضات اطفال
-بانتس عبوة ميجا 
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
+                </div>
+      </Card.Body>
+    </Card>
    </div>
 
    <div class="col mb-3 ">
 
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
+ <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
 
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod2} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>موبايل سامسونج جالاكسي بشريحتين اتصال
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 12.000 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
+                </div>
+      </Card.Body>
+    </Card>
+   </div>
+
+   <div class="col mb-3 ">
+
+   <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
    </div>
 
   <div class="col mb-3 ">
 
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
+  <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
 
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>سويت شيرت للرجال من اندورا
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 500 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
-   </div>
-   <div class="col mb-3">
- 
- <Card style={{ width: '100%' , height:'100%'}}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
-
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod5} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>
-       منعم اقمشة فلورا سوفت من كومفورت 3 لتر
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                   
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
-   </div>
-   <div class="col mb-3">
-
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
-
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod1} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>
-       تروفال حلة طهي كلاسيكية مقاس 24 سم 
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                   
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
-   </div>
-   <div class="col mb-3">
-
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
-
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod3} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>
-       مولفيكس حفاضات اطفال
-بانتس عبوة ميجا 
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                   
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
-   </div>
-
-   <div class="col mb-3 ">
-
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
-
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>سويت شيرت للرجال من اندورا
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                   
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 500 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
-   </div>
-
-  <div class="col mb-3">
-
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
-
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>سويت شيرت للرجال من اندورا
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                   
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 500 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
+                </div>
+      </Card.Body>
+    </Card>
    </div>
 
    <div class="col mb-3">
  
+<Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
+   </div>
+
+   <div class="col mb-3">
+
+   <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
+   </div>
+
+   <div class="col mb-3">
+
  <Card style={{ width: '100%' , height:'100%'}}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
 
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod5} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>
-       منعم اقمشة فلورا سوفت من كومفورت 3 لتر
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
-   </div>
-   <div class="col mb-3">
-
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
-
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod1} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>
-       تروفال حلة طهي كلاسيكية مقاس 24 سم 
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                   
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
-   </div>
-   <div class="col mb-3">
-
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
-
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
-                    
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod3} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>
-       مولفيكس حفاضات اطفال
-بانتس عبوة ميجا 
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
-                   
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 83 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
+                </div>
+      </Card.Body>
+    </Card>
    </div>
 
    <div class="col mb-3 ">
 
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
+   <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
 
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>سويت شيرت للرجال من اندورا
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 500 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
+                </div>
+      </Card.Body>
+    </Card>
    </div>
 
   <div class="col mb-3">
 
- <Card style={{ width: '100%', height:'100%' }}>
- <div style={{display:'flex'}}>
-               <img src={offer} alt='' style={{marginRight:'10px'}} />
-             </div>
+  <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
 
-             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
-             <IoHeartCircleSharp
-                      style={{
-                        color: "rgb(166 166 166 / 82%)",
-                        fontSize: "30px",
-                        marginRight: "-30px",
-                        cursor:'pointer'
-                      }}
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
                     
-                    />
-             </div>
-             
- <Card.Body>
- <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-15px'}} />
-      
-       <Card.Text>سويت شيرت للرجال من اندورا
-       </Card.Text>
-       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
-       <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
-                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
-               </div>
-               <div style={{display:'flex', marginRight:'15px'}}>
-                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-25px'}}> 500 جنيه  </p>
-                  
-               </div>
-     </Card.Body>
-   </Card>
+                </div>
+      </Card.Body>
+    </Card>
+   </div>
+
+   <div class="col mb-3">
+   <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
+   </div>
+
+   <div class="col mb-3">
+
+   <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
+   </div>
+
+   <div class="col mb-3">
+
+ <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
+   </div>
+
+   <div class="col mb-3 ">
+
+   <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
+   </div>
+
+  <div class="col mb-3">
+
+  <Card style={{ width: '100%' , height:'100%'}}>
+  <div style={{display:'flex'}}>
+                <img src={offer} alt='' style={{marginRight:'10px'}} />
+              </div>
+
+              <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+                    <img src={favIcon} />
+              </div>
+              
+  <Card.Body>
+  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
+       
+        <Card.Text style={{marginTop:'5px'}}>
+       موبايل سامسونج جالاكسي بشريحتين اتصال   
+        </Card.Text>
+        <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+        <FaStar style={{color:'#ffc300', fontSize:'23px', marginTop:'2px'}} />
+                    
+                    <p style={{color: "#7A808A", marginRight:'5px', fontSize:'18px'}}>4.5</p>
+                </div>
+                <div style={{display:'flex', marginRight:'15px'}}>
+                    <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
+                   
+                </div>
+      </Card.Body>
+    </Card>
    </div>
    
   </div>

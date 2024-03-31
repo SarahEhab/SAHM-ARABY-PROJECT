@@ -23,8 +23,8 @@ import star from '../../images/star.png'
 import card1 from '../../images/card1.png'
 import card2 from '../../images/card2.png'
 import card3 from '../../images/card3.png'
-import newPic from '../../images/new.png'
-import fire from '../../images/fire.png'
+import newIcon from '../../images/newIcon.svg'
+import fire from '../../images/fireIcon.svg'
 import cat1 from '../../images/cat1.png' 
 import cat2 from '../../images/cat2.png'
 import cat3 from '../../images/cat3.png'
@@ -182,7 +182,7 @@ const HomePageStore = () => {
 
 
 <div style={{display:'flex', justifyContent:'space-between'}} >
-<h5 style={{ fontWeight:'bold'}}> <img src={newPic} /> احدث المنتجات </h5>
+<h5 style={{ fontWeight:'bold'}}> <img src={newIcon} /> احدث المنتجات </h5>
 
 
 <Link to='/Newest-products' style={{textDecoration:'none'}}>

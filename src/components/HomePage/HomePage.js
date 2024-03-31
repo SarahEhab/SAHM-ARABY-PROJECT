@@ -20,8 +20,8 @@ import star from '../../images/star.png'
 import card1 from '../../images/card1.png'
 import card2 from '../../images/card2.png'
 import card3 from '../../images/card3.png'
-import newPic from '../../images/new.png'
-import fire from '../../images/fire.png'
+import newIcon from '../../images/newIcon.svg'
+import fire from '../../images/fireIcon.svg'
 import cat1 from '../../images/cat1.png'
 import cat2 from '../../images/cat2.png'
 import cat3 from '../../images/cat3.png'
@@ -689,7 +689,7 @@ const HomePage = () => {
 
 
 <div style={{display:'flex', justifyContent:'space-between'}} >
-<h5 style={{ fontWeight:'bold'}}> <img src={newPic} /> احدث المنتجات </h5>
+<h5 style={{ fontWeight:'bold'}}> <img src={newIcon} /> احدث المنتجات </h5>
 
 
 <Link to='/Newest-products' style={{textDecoration:'none'}}>
@@ -759,16 +759,16 @@ const HomePage = () => {
 
 <div class='container text-center '>
    <div class=" m-5 row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 ">
-   <div class="col">
+   <Col sm={6} md={12} xl={6} >
     <div >
                <div  > 
-               <img src={mobile} style={{height:'530.97px' , width:'80%'}} /> </div>
+               <img src={mobile} style={{width:'100%'}} /> </div>
 
               
-            </div></div>
+            </div></Col>
 
 
-   <div class="col" style={{display:'flex' , justifyContent:'center', alignItems:'center'}} >
+   <Col sm={6} md={12} xl={6} style={{display:'flex' , justifyContent:'center', alignItems:'center'}} >
     <div>
     <div>
                   <img src={logo}  />
@@ -778,7 +778,7 @@ const HomePage = () => {
 
                </div>
     </div>
-   </div>
+   </Col>
   
 </div>
 </div>
