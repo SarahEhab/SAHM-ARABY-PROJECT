@@ -675,7 +675,7 @@ const HomePage = () => {
 
 
 
-<div class="  row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 ">
+{/* <div class="  row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 ">
 
 <div class="col mb-3">
 <Link to='/store-product'  style={{textDecoration:'none'}}>
@@ -895,9 +895,9 @@ const HomePage = () => {
 
 
 
-</div>
-{/* 
-  <ProductCard /> */}
+</div> */}
+
+  <ProductCard />
 </div>
    
    </div>
