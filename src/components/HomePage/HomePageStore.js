@@ -210,7 +210,7 @@ const HomePageStore = () => {
         </Col>
     </Row>
 </Container>
-
+ 
 <div style={{background:' #F4F5F7'}}>
     <div class="container text-center mb-5 p-5">
     <h5 style={{display:'flex', fontWeight:'bold'}}>منتجات مقترحة لك</h5>
