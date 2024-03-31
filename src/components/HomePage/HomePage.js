@@ -676,7 +676,8 @@ const HomePage = () => {
 
  
 <div class="  row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 ">
-  <div class="col mb-3">
+
+  <div style={{padding:'0px'}}  class="col mb-3">
  
  
 <Link to='/store-product' style={{textDecoration:'none'}} >
@@ -689,7 +690,7 @@ const HomePage = () => {
                     <img src={favIcon} />
               </div>
               
-  <Card.Body>
+  <div>
   <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
        
         <Card.Text style={{marginTop:'5px'}}>
@@ -704,12 +705,12 @@ const HomePage = () => {
                     <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
                 </div>
-      </Card.Body>
+      </div>
     </Card>
 </Link> 
     </div>
 
-    <div class="col mb-3">
+    <div style={{padding:'0px'}}  class="col mb-3">
     <Card style={{ width: '100%' , height:'100%'}}>
   <div style={{display:'flex'}}>
                 <img src={offer} alt='' style={{marginRight:'10px'}} />
@@ -719,7 +720,7 @@ const HomePage = () => {
                     <img src={favIcon} />
               </div>
               
-  <Card.Body>
+  <div>
   <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} />
        
         <Card.Text style={{marginTop:'5px'}}>
@@ -734,7 +735,7 @@ const HomePage = () => {
                     <p style={{color: "#E51937", fontSize:'18px', fontWeight:'bold', marginTop:'-15px'}}> 83 جنيه  </p>
                    
                 </div>
-      </Card.Body>
+      </div>
     </Card>
     </div>
 
