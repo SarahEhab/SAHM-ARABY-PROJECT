@@ -579,7 +579,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -621,7 +621,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -662,7 +662,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -703,7 +703,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -744,7 +744,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -785,7 +785,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -862,7 +862,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -905,7 +905,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -946,7 +946,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -987,7 +987,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -1028,7 +1028,7 @@ width:'auto', background:'#FFFFFF', marginTop:'15px', marginBottom:'10px'}}>
   <div>  <img src={wear} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  

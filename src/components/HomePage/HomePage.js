@@ -925,7 +925,20 @@ const HomePage = () => {
  <ProductCard />
 </div>
 
-
+{/* 
+<Container>
+  <Row>
+  <Col>
+        <div style={{display:'flex', justifyContent:'center', gap:'15px', marginBottom:'-70px'}}> 
+        <img src={card2} width='30%'/>
+            <img src={card3} width='30%'/>
+        <img src={card1} width='30%'/>
+           
+        </div>
+           
+        </Col>
+  </Row>
+</Container> */}
 <Container>
     <Row>
         <Col>
@@ -937,6 +950,15 @@ const HomePage = () => {
         </div>
            
         </Col>
+        {/* <Col sm={4} md={4} xs={12}>
+        <img src={card2} width="100%"/>
+        </Col>
+        <Col sm={4} md={4} xs={12}>
+        <img src={card3} width="100%"/>
+        </Col>
+        <Col sm={4} md={4} xs={12}>
+        <img src={card1} width="100%"/>
+        </Col> */}
     </Row>
 </Container>
 

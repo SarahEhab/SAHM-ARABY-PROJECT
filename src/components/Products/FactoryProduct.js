@@ -1351,10 +1351,10 @@ background:'linear-gradient(89.51deg, rgb(2 228 216 / 0%) -0.41%, rgb(1 154 237 
 <div>
 
 <div >
-  <div>  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} /></div>
+  <div>  <img src={prod2} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -1392,10 +1392,10 @@ background:'linear-gradient(89.51deg, rgb(2 228 216 / 0%) -0.41%, rgb(1 154 237 
 <div>
 
 <div >
-  <div>  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} /></div>
+  <div>  <img src={prod2} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -1433,10 +1433,10 @@ background:'linear-gradient(89.51deg, rgb(2 228 216 / 0%) -0.41%, rgb(1 154 237 
 <div>
 
 <div >
-  <div>  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} /></div>
+  <div>  <img src={prod2} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -1473,10 +1473,10 @@ background:'linear-gradient(89.51deg, rgb(2 228 216 / 0%) -0.41%, rgb(1 154 237 
 <div>
 
 <div >
-  <div>  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} /></div>
+  <div>  <img src={prod2} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  
@@ -1514,10 +1514,10 @@ background:'linear-gradient(89.51deg, rgb(2 228 216 / 0%) -0.41%, rgb(1 154 237 
 <div>
 
 <div >
-  <div>  <img src={prod2} style={{width:'120px', height:'120px', marginTop:'-15px'}} /></div>
+  <div>  <img src={prod2} style={{width:'120px', height:'120px'}} /></div>
   <div style={{marginTop:'-10px', display:'flex'}}>
           <p className='greenImg2'
-          style={{ color:'#FFFFFF', fontSize:'12px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
+          style={{ color:'#FFFFFF', fontSize:'10px', padding:'5px 7px'}}>   الحد الادنى: 30 قطعة  </p>
           </div>
 </div>
  

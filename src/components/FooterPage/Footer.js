@@ -2,11 +2,11 @@ import React from 'react';
 import { Col, Container, Row} from 'react-bootstrap';
 import './footer.css'
 import logo from '../../images/logo.png'
-import facebook from '../../images/facebook.png'
-import instgram from '../../images/instagram.png'
-import whats from '../../images/whats.png'
-import telegram from '../../images/telegram.png'
-import youtube from '../../images/youtube.png'
+import facebook from '../../images/facebook.svg'
+import instgram from '../../images/instagram.svg'
+import whats from '../../images/whats.svg'
+import telegram from '../../images/telegram.svg'
+import youtube from '../../images/youtube.svg'
 import googlePlay from '../../images/google-play.png'
 import cat1 from '../../images/cat1.png'
 import { Link } from 'react-router-dom';
