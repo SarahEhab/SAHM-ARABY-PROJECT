@@ -7,8 +7,11 @@ import apple from "../../images/apple.png";
 import logo from "../../images/logo.png";
 import RegisterPage from './RegisterPage';
 import ForgetPasswordPage from './ForgetPasswordPage';
+import { createLoginUser } from '../../features/auth/authSlice';
+import { useDispatch, useSelector } from "react-redux";
+import toast, { Toaster } from 'react-hot-toast';
 
-
+import Cookies from "js-cookie";
 const LoginPage = () => {
 
 
@@ -22,8 +25,41 @@ const LoginPage = () => {
      const handleClosee = () => setShowRwg(false);
      const handleShowReg = () => setShowRwg(true);
 
-
-
+     const dispatch = useDispatch();
+    
+     const [state, setState] = useState({
+      phone: "",
+       password: "",
+     });
+   
+     // Destructure state object for easier access
+     const { phone, password } = state;
+   
+     // Function to handle input changes
+     const handleInputChange = (fieldName) => (e) => {
+       setState((prevState) => ({ ...prevState, [fieldName]: e.target.value }));
+     };
+     const res = useSelector((state) => state.auth.userLogin);
+   
+     const isLoading = useSelector((state) => state.auth.isLoading);
+     const error = useSelector((state) => state.auth.error);
+   console.log(res)
+   console.log(res.data)
+   Cookies.set('token', res.data)
+  //save data
+  const OnSubmit = async (e) => {
+    e.preventDefault();
+    await dispatch(
+      createLoginUser({
+        formData: {
+          phone,
+          password,
+        },
+        
+      }) 
+    );
+    // Handle success or error responses here (redirect or show error message)
+  };
   
 return(
     <Container>
@@ -38,7 +74,9 @@ return(
       
  
        
-      <Form.Control type="text" placeholder=" 789 456 123" style={{  background:'#FFFFFF' ,borderRadius: '10px', 
+      <Form.Control  onChange={handleInputChange("phone")}
+                    value={phone}
+      type="text" placeholder=" 789 456 123" style={{  background:'#FFFFFF' ,borderRadius: '10px', 
                padding:'20px 35px 15px 15px' , border:'2px solid #7EA91A'}}  /> 
 
 <Form.Label style={{ display:'flex' , padding:'3px 35px', marginTop:'-63px', position:'absolute',fontSize:'15px',color:'#585858'
@@ -49,7 +87,9 @@ return(
          <Form.Label style={{display:'flex' , padding:'3px 30px', display:'flex', marginBottom:'-30px' ,
           position:'absolute',fontSize:'15px',color:'#585858'}}> كلمه المرور  </Form.Label>
          
-         <Form.Control type="password"  style={{  background:'#FFFFFF' ,borderRadius: '10px', 
+         <Form.Control onChange={handleInputChange("password")}
+                    value={password}
+          type="password"  style={{  background:'#FFFFFF' ,borderRadius: '10px', 
                  padding:'15px' }}  />
       </Form.Group>
   
@@ -65,7 +105,8 @@ return(
    </div>
 
     <div  className='d-flex justify-content-center align-items-center   ' style={{borderRadius:'30px' }} >
-           <button style={{ color:' rgba(255, 255, 255, 1)' , fontWeight:'700' , fontSize :'25px' , border:'none' , paddingTop:'5px', display:'flex', justifyContent:'center'}} 
+           <button   onClick={(e) => OnSubmit(e)}
+            style={{ color:' rgba(255, 255, 255, 1)' , fontWeight:'700' , fontSize :'25px' , border:'none' , paddingTop:'5px', display:'flex', justifyContent:'center'}} 
            className='profileButton' >تسجيل دخول</button>
     </div>
 
@@ -97,6 +138,7 @@ return(
      </div>
      </Col>
    </Row>
+   <Toaster />
  </Container>
 )
      ;

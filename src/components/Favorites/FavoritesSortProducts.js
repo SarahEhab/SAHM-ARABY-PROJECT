@@ -8,7 +8,7 @@ import group from "../../images/Group1.png";
 import group1 from "../../images/Group2.png";
 import search from '../../images/search.png'
 import offer from '../../images/off.png'
-import fav from '../../images/fav-red.png'
+import fav from '../../images/redIcon.svg'
 import prod2 from '../../images/prod2.png'
 import prod3 from '../../images/prod3.png'
 import prod4 from '../../images/prod4.png'

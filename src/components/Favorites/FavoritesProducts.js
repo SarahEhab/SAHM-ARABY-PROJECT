@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Favorites.css'
 import NavBarBlue from '../NavBar/NavBarBlue';
 import { Card, Col, Container, Form, FormControl, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap';
@@ -8,7 +8,7 @@ import group from "../../images/Group.png";
 import group1 from "../../images/Group-1.png";
 import search from '../../images/search.png'
 import offer from '../../images/off.png'
-import fav from '../../images/fav-red.png'
+import fav from '../../images/redIcon.svg'
 import prod2 from '../../images/prod2.png'
 import prod3 from '../../images/prod3.png'
 import prod4 from '../../images/prod4.png'
@@ -17,8 +17,22 @@ import star from '../../images/star.png'
 import { Link } from 'react-router-dom';
 import closeImg from '../../images/close.png'
 import NavbarLogin from '../NavBar/NavbarLogin';
+import { getFavProducts } from '../../features/favorites/favoriteSlice';
+import { useDispatch, useSelector } from "react-redux";
 
+import Cookies from "js-cookie";
 const FavoritesProducts = () => {
+
+  const dispatch = useDispatch()
+  const getfavPro = useSelector((state) => state.fav.favProduct);
+  const isLoading = useSelector((state) => state.fav.isLoading);
+  let token = Cookies.get("token");
+  console.log(getfavPro)
+
+  useEffect(() => {
+    dispatch(getFavProducts(token));
+  }, [dispatch,token]);
+
     return <>
         <NavBarBlue />
 
@@ -126,7 +140,7 @@ const FavoritesProducts = () => {
               </div>
               
   <Card.Body>
-  <img src={prod5} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+  <img src={prod5} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
 
   <div style={{display:'flex', textAlign:'center', alignItems:'center', justifyContent:'center'}}> 
  <div style={{border: " 1.23px solid #E5193726", borderRadius:'20px', color:'#E51937', 
@@ -150,7 +164,57 @@ const FavoritesProducts = () => {
       </Card.Body>
     </Card>
     </div>
-    <div class="col  mb-3 ">
+    {
+          !isLoading?(
+            getfavPro && getfavPro.length > 0 ? (
+            <>
+              { (getfavPro).map((item, index) => (
+                <div class="col mb-3">
+ 
+ <Card style={{ width: '100%' , height:'100%'}}>
+ <div style={{display:'flex'}}>
+               <img src={offer} alt='' style={{marginRight:'10px'}} />
+             </div>
+
+             <div style={{display:'flex', justifyContent:'flex-end', marginLeft:'10px', marginTop:'-25px'}}>
+               <img src={fav} alt='' style={{}} />
+             </div>
+             
+ <Card.Body>
+ <img src={prod5} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
+
+ <div style={{display:'flex', textAlign:'center', alignItems:'center', justifyContent:'center'}}> 
+<div style={{border: " 1.23px solid #E5193726", borderRadius:'20px', color:'#E51937', 
+fontWeight:'bold', background:'rgb(229 25 55 / 9%)', display:'flex', fontSize:'14px', padding:'3px'}}>
+<div><img src={closeImg} style={{paddingLeft:'5px', width:'25px'}}  /> </div>المنتج غير متوفر حالياً  </div>  </div>
+
+
+
+       <Card.Text>
+       منعم اقمشة فلورا سوفت من كومفورت 3 لتر
+       </Card.Text>
+       <div style={{display:'flex', marginRight:'15px', marginTop:'-15px'}}>
+                 <div><img src={star} alt=''  /></div>
+                   
+                   <p style={{color: "#7A808A", marginRight:'5px', fontSize:'20px'}}>4.5</p>
+               </div>
+               <div style={{display:'flex', marginRight:'15px'}}>
+                   <p style={{color: "#E51937", fontSize:'22px', fontWeight:'bold', marginTop:'-15px', marginBottom:'-5px'}}> 83 جنيه  </p>
+                  
+               </div>
+     </Card.Body>
+   </Card>
+   </div>
+            
+              ))}
+            </>
+          ) :   null
+          ):(
+            null
+            )
+        }
+
+    {/* <div class="col  mb-3 ">
  
   <Card style={{ width: '100%', height:'100%' }}>
   <div style={{display:'flex'}}>
@@ -162,7 +226,7 @@ const FavoritesProducts = () => {
               </div>
               
   <Card.Body>
-  <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+  <img src={prod4} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
        
         <Card.Text>سويت شيرت للرجال من اندورا
         </Card.Text>
@@ -178,6 +242,7 @@ const FavoritesProducts = () => {
       </Card.Body>
     </Card>
     </div>
+
     <div class="col mb-3">
  
   <Card style={{ width: '100%', height:'100%' }}>
@@ -190,7 +255,7 @@ const FavoritesProducts = () => {
               </div>
               
   <Card.Body>
-  <img src={prod3} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+  <img src={prod3} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
        
         <Card.Text>
         مولفيكس حفاضات اطفال
@@ -221,7 +286,7 @@ const FavoritesProducts = () => {
               </div>
               
   <Card.Body>
-  <img src={prod2} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+  <img src={prod2} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
        
         <Card.Text>موبايل سامسونج جالاكسي بشريحتين اتصال
         </Card.Text>
@@ -250,7 +315,7 @@ const FavoritesProducts = () => {
               </div>
               
   <Card.Body>
-  <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+  <img src={prod4} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
        
         <Card.Text>سويت شيرت للرجال من اندورا
         </Card.Text>
@@ -279,7 +344,7 @@ const FavoritesProducts = () => {
              </div>
              
  <Card.Body>
- <img src={prod5} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+ <img src={prod5} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
       
        <Card.Text>
        منعم اقمشة فلورا سوفت من كومفورت 3 لتر
@@ -308,7 +373,7 @@ const FavoritesProducts = () => {
              </div>
              
  <Card.Body>
- <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+ <img src={prod4} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
       
        <Card.Text>سويت شيرت للرجال من اندورا
        </Card.Text>
@@ -336,7 +401,7 @@ const FavoritesProducts = () => {
              </div>
              
  <Card.Body>
- <img src={prod3} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+ <img src={prod3} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
  
  <div style={{display:'flex', textAlign:'center', alignItems:'center', justifyContent:'center'}}> 
  <div style={{border: " 1.23px solid #E5193726", borderRadius:'20px', color:'#E51937', 
@@ -371,7 +436,7 @@ const FavoritesProducts = () => {
              </div>
              
  <Card.Body>
- <img src={prod2} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+ <img src={prod2} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
       
        <Card.Text>موبايل سامسونج جالاكسي بشريحتين اتصال
        </Card.Text>
@@ -400,7 +465,7 @@ const FavoritesProducts = () => {
              </div>
              
  <Card.Body>
- <img src={prod4} style={{maxWidth:'100%', maxHeight:'100px', marginTop:'-50px'}} />
+ <img src={prod4} style={{width: '120px' , height:'120px', marginTop:'-50px'}} />
       
        <Card.Text>سويت شيرت للرجال من اندورا
        </Card.Text>
@@ -415,7 +480,7 @@ const FavoritesProducts = () => {
                </div>
      </Card.Body>
    </Card>
-   </div>
+   </div> */}
    
   </div>
     </Container>
